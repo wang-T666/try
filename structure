@@ -1,0 +1,26 @@
+smart-it-ticket-agent/
+├── README.md
+├── requirements.txt
+├── config/
+│   └── agent_config.yaml
+├── agents/
+│   ├── __init__.py
+│   ├── base_agent.py
+│   ├── router_agent.py
+│   ├── diagnosis_agent.py
+│   ├── auto_fix_agent.py
+│   └── knowledge_agent.py
+├── core/
+│   ├── __init__.py
+│   ├── orchestrator.py
+│   ├── ticket_system.py
+│   └── llm_client.py
+├── prompts/
+│   └── system_prompts.py
+├── workflows/
+│   └── ticket_flow.py
+├── evaluation/
+│   └── generate_report.py
+├── tests/
+│   └── test_ticket_flow.py
+└── main.py
